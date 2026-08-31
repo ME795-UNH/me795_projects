@@ -8,7 +8,7 @@ Maintainer: Contact the instructor
 - `core`: support code that I provde, including helper functions for publishing commands to the robot
 - `lib`: This is where you will implement algorithms to solve the projects. 
 - `projects`: This is where testing code will live and will use code in the `core` and `lib` directories. 
-- `src`: this contains all necessary code to launch the simulation. You will not need to work in this directory
+- `ros`: this contains all necessary code to launch the simulation. You will not need to work in this directory. We are using the `franka_description` ros package as a subtree in git. This preserves the git history, but does not require working directly with a submodule. For this class, we will not do any updating to this repository. 
 
 # Native Install Instructions (Not required for Virtual Machine Instructions)
 If you are already running Ubuntu 24.04 and want to install the class software on your own you can follow these instructions. Note that this documentation is what I used to set up the VM image and rely heavily on my experiences setting these types of tools up.

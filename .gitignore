@@ -1,0 +1,23 @@
+# Things to ignore in this repository
+
+*.log
+*.pyc
+*.*~
+.\#*
+
+*.log
+*.aux
+*.png
+*.pdf
+
+*.mp4
+*.gif
+*.pdf
+*.svg
+*.txt
+*.pickle
+*.eps
+
+build/*
+install/*
+log/*

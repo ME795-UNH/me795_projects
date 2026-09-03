@@ -33,7 +33,7 @@ We will run Ubuntu 24.04 and ROS2 Jazzy along with Gazebo Harmonic
 
 Packages to install: 
 1) `ros-jazzy-moveit`
-2) `ros-jazzy-navigate`
+2) `ros-jazzy-navigation2`
 3) `ros-jazzy-turtlebot4-desktop`
 4) `ros-jazzy-turtlebot4-simulator ros-jazzy-irobot-create-nodes`
 5) `ros-jazzy-ros-gz ros-jazzy-sdformat-urdf`

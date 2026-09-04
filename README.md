@@ -47,3 +47,4 @@ Packages to install:
 
 
 ### Step 4: 
+- Resume the project PDF at the github instructions

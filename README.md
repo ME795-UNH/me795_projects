@@ -20,8 +20,11 @@ We will run Ubuntu 24.04 and ROS2 Jazzy along with Gazebo Harmonic
 ### Step 1:
 
 - Install ROS2 Jazzy desktop full [link](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
-- Do bask working test in the setup instructions
-- Put `source /opt/ros/jazzy/setup.bash` in ~/.bashrc 
+- Do tests in the setup instructions
+- Put `source /opt/ros/jazzy/setup.bash` in ~/.bashrc
+- If you are building a new VM image do:
+
+`$ sudo apt install open-vm-tools-desktop`
 
 ### Step 2:
 

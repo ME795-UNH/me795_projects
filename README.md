@@ -29,7 +29,9 @@ We will run Ubuntu 24.04 and ROS2 Jazzy along with Gazebo Harmonic
 
 ### Step 3:
 
-- Install ROS Jazzy packages that are managed by package manager and will be in `/opt/ros/jazzy` directory.
+- Install ROS Jazzy packages that are managed by package manager and will be in `/opt/ros/jazzy` directory. To install packages you will type:
+
+`$ sudo apt-get <PACKAGE NAME>`
 
 Packages to install: 
 1) `ros-jazzy-moveit`

@@ -43,6 +43,7 @@ Packages to install:
 4) `ros-jazzy-turtlebot4-simulator ros-jazzy-irobot-create-nodes`
 5) `ros-jazzy-ros-gz ros-jazzy-sdformat-urdf`
 6) `ros-jazzy-gz-ros2-control`
+7) `ros-jazzy-tf-transformations`
 **Note**: some of these packages have dependencies and install other packages and it may say that you already have the newest version when you go to install
 
 

@@ -44,7 +44,13 @@ class PlanarIK:
         abstract_target = self.physical_to_abstract_target(physical_target)
         abstract_joints = self.rrr_abstract_ik(abstract_target)
         physical_joints = self.physical_to_abstract_joints(abstract_joints)
-        return self.convert_to_range(physical_joints)
+        vals = self.convert_to_range(physical_joints)
+        
+        # Add values for the fingers
+        result = np.zeros((2, 9))
+        result[0,:] = np.append(vals[0,:], [0.0, 0.0])
+        result[1,:] = np.append(vals[1,:], [0.0, 0.0])
+        return(result)
 
     def physical_to_abstract_target(self, physical_target):
         """

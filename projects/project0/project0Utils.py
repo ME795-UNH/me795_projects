@@ -4,6 +4,8 @@ This code was built for MEAM520 at the University of Pennsylvania in the Fall of
 Editor: Victoria Edwards
 Date: 09/02/2026
 
+I did or did not use AI 
+
 Instructions:
    - Implement the following three functions. 
    - There is simple test code at the bottom. Add to this test code as needed to help you debug your code.
@@ -19,6 +21,7 @@ Instructions:
 
    - Consider what other test cases you could run that would help you know if your code is correct
 """
+# I Did use AI .... 
 
 import numpy as np
 
@@ -33,10 +36,8 @@ def linear_solver(A, b):
     Returns:
         x: 0xn numpy array
     """
-
     
     # Student code goes here
-
 
     return()
 

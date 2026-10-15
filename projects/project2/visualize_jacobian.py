@@ -74,7 +74,7 @@ class VelocityVisualizer(Node):
     def show_all_velocity(self, q, i):
         qdot = np.zeros(7)
         qdot[i] = 1
-        J = calcJacobian(q)
+        J = calcJacobian(q[0:7])
         velocity = J @ qdot
  
         # frame conversion

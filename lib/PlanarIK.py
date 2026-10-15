@@ -39,7 +39,7 @@ class PlanarIK:
                 'theta': scalar of angle about y axis for target in radians
 
         Returns:
-             q = 2x7 numpy array of joints in radians
+             q = 2x9 numpy array of joints in radians
         """
         abstract_target = self.physical_to_abstract_target(physical_target)
         abstract_joints = self.rrr_abstract_ik(abstract_target)

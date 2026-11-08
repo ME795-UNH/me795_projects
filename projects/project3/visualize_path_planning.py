@@ -9,7 +9,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.time import Time
 
-from turtle_interface_soln import TurtleController
+from turtle_interface import TurtleController
 
 from rrt import rrt
 from astar import Astar
